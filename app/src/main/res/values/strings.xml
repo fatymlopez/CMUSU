@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">CMUS</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_menu_pantalla">menu_pantalla</string>
+    <string name="title_activity_ingresardatos">ingresardatos</string>
+    <string name="title_activity_buscardatos">buscardatos</string>
+    <string name="title_activity_limpiardatos">limpiardatos</string>
+    <string name="title_activity_sincronizar">Sincronizar</string>
+</resources>

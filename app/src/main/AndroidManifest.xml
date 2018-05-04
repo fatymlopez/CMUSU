@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.fatima.cmus">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".menu_pantalla"
+            android:label="@string/title_activity_menu_pantalla"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ingresardatos"
+            android:label="@string/title_activity_ingresardatos"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".buscardatos"
+            android:label="@string/title_activity_buscardatos"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".limpiardatos"
+            android:label="@string/title_activity_limpiardatos"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Sincronizar"
+            android:label="@string/title_activity_sincronizar"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>
